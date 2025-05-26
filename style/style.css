@@ -1,31 +1,34 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Work Sans", sans-serif;
 }
 
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-#banner{
-    background-image:  linear-gradient(rgba(9, 9, 9, 0), rgba(16, 16, 16, 1)),
+
+#banner {
+    background-image: linear-gradient(rgba(9, 9, 9, 0), rgba(16, 16, 16, 1)),
         url(../assets/hero-bg.png);
     background-size: cover;
     background-position: center;
-    height: 950px;
+    height: 900px;
+    /* width: 1920px; */
     display: flex;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }
 
-.banner_content{
-max-width: 900px;
+.banner_content {
+    max-width: 900px;
 }
 
-   
- .banner_title{
+
+.banner_title {
     color: rgba(255, 255, 255, 1);
     font-weight: 600;
     opacity: 80%;
@@ -34,24 +37,24 @@ max-width: 900px;
     line-height: 38px;
 }
 
- .banner_subtitle{
+.banner_subtitle {
     color: rgba(255, 255, 255, 1);
     font-weight: 800;
     line-height: 50px;
     margin-bottom: 24px;
-        font-size: 50px;
+    font-size: 50px;
 }
 
- .banner_para{
+.banner_para {
     color: rgba(255, 255, 255, 1);
     font-weight: 600;
     opacity: 70%;
     line-height: 30px;
-    margin-bottom: 32px; 
+    margin-bottom: 32px;
     font-size: 17px;
 }
 
- .banner_btn{  
+.banner_btn {
     color: rgba(255, 255, 255, 1);
     background-color: rgba(82, 195, 3, 1);
     font-weight: 600;
@@ -61,4 +64,267 @@ max-width: 900px;
     border: none;
     font-size: 20px;
     line-height: 30px;
+    cursor: pointer;
+    
 }
+
+
+#card_box {
+    width: 1320px;
+    height: 846px;
+    margin: 64px auto;
+
+
+
+}
+
+.cardboxsubtitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    opacity: 0.6;
+
+}
+
+
+.cardboxtitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+
+.cardsubtitle span {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    margin: bottom 20px;
+    gap: 20px;
+    border-radius: 8px;
+
+    background: rgba(82, 195, 3, 0.15);
+    padding: 14px 32px 14px 32px;
+    margin-bottom: 20px;
+    display: inline-block;
+
+}
+
+.cardtitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 12px;
+
+}
+
+.cardpara {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+
+.cardbtn button {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.card1img {
+ 
+    width: 424px;
+    height: 283px;
+    border-radius: 16px;
+    margin: 32px 0px;
+}
+
+.card1img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    display: block;
+}
+
+.allcard {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+
+.cardboxtitle h1{
+     color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin: 24px 0px;
+}
+
+.cardboxsubtitle h4 {
+      color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    opacity: 0.6;
+    margin: 24px 0px;}
+  
+ .cardboxsubtitle h2 {
+  color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 600;
+text-align: center;
+opacity: 0.7;
+  margin: 0px 10px;
+}
+
+
+#follow{
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+   
+    width: 1920px;
+    height: 920px;
+
+}
+
+.followus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 830px;
+    height: 400px;
+    gap: 30px;
+  
+    
+ 
+   
+}
+
+.img{
+ 
+   width: 960px;
+   height: 670px;
+   
+  
+}
+
+.img img{
+    width:100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display: block;
+    background-position: center;
+}
+
+
+
+.icons{
+    display: flex;
+     margin: 32px 0px;
+     gap: 32px;
+}
+#footer{
+
+height: 671px;
+margin: 0 auto;
+margin-top: 20px;
+    background-image: url(../assets/social-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.footercontent{
+    max-width: 1932px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+.footercontent h1{
+     color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin: 24px 0px;
+}
+
+.footercontent h4 {
+      color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    opacity: 0.6;
+    margin: 24px 0px;}
+  
+ .footercontent h2 {
+  color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 600;
+text-align: center;
+opacity: 0.7;
+  margin: 0px 10px;
+}
+
+.footericons{
+     display: flex;
+     margin: 32px 0;
+     gap: 30px;
+     align-items: center;
+     justify-content: center;
+   
+width: 300px;
+height: 60px;
+
+
+}
+
+.footericons{
+     display: flex;
+     margin: 32px 0;
+     gap: 30px;
+     align-items: center;
+     justify-content: center;
+     }
+   
